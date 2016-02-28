@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+a pod for socket connection
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ZJSocketLib"
+  s.homepage         = "https://github.com/ingridzhang/ZJSocketLib"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "zhangjing" => "542727052@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ZJSocketLib.git", :tag => s.version.to_s }
+  s.author           = { "ingridzhang" => "542727052@qq.com" }
+  s.source           = { :git => "https://github.com/ingridzhang/ZJSocketLib.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -37,5 +38,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  # s.dependency 'CocoaAsyncSocket', '~> 7.4.2'
+    s.dependency 'CocoaAsyncSocket', '~> 7.4.2'
 end

@@ -8,6 +8,7 @@
 
 #import "ZJViewController.h"
 #import "ZJSocketConnection.h"
+#import "GCDAsyncSocket.h"
 
 @interface ZJViewController ()
 {
