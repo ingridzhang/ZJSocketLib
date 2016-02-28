@@ -1,0 +1,6 @@
+framework module ZJSocketLib {
+  umbrella header "ZJSocketLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

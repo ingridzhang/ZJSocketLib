@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27D63CFCCB67C151DBEFF52925190815 /* Pods-ZJSocketLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC88D1589F80B7CDAF9ABE7CB93AEA1 /* Pods-ZJSocketLib_Tests-dummy.m */; };
+		44E6255B3A40DED664E6E3C7906E5729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		475665A5C9CBA1F4D1128A10B41F2FA6 /* Pods-ZJSocketLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 437CC6D88E9063DA98532C1DF2B61272 /* Pods-ZJSocketLib_Example-dummy.m */; };
+		49CDC4CCC04BB21CD1BBAA3413C81E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7BBB0BCD9AE1A8811A57BCEBECB526E0 /* Pods-ZJSocketLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC43A32477F4AE08D0472FED9D8394B /* Pods-ZJSocketLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80999BCCB88B71620D63785ABBFFF0EA /* ZJSocketLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEB1E860CD20C5685DB0319A7057B267 /* ZJSocketLib.bundle */; };
+		93D7670E7091396A3E43B28E337A48AE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B8668F91F777E78B92C558469241F6B8 /* ReplaceMe.m */; };
+		9A5C97653F7A5AC202FC99D8F034736D /* ZJSocketLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD3252AAABFB44BECFCE7DB4C39AB15 /* ZJSocketLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A664537A4C69DB9DEDEADFEED7474583 /* ZJSocketLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DB6DE41446FA7AD0B485E06401515C /* ZJSocketLib-dummy.m */; };
+		E3B1BE7190E0194C0C98ACCD08A68EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FF6FD3B312AFEC353D22D534CFD76F10 /* Pods-ZJSocketLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 984B249CF777A29865D749A43BD9FFEF /* Pods-ZJSocketLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1752C44811BC6279DFE9CFB73286908C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71996BA63860756F7E11FC80A4C7F27D;
+			remoteInfo = ZJSocketLib;
+		};
+		3CFE9EEBC09146B9CD2BF22A8C0B2F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71996BA63860756F7E11FC80A4C7F27D;
+			remoteInfo = ZJSocketLib;
+		};
+		99FBBEE3526D136FE21B80DC51FA157B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D9226C97BB589A1BB767BFCB1FC645;
+			remoteInfo = "ZJSocketLib-ZJSocketLib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051FAF0EC1F561DD6582FB7C157616D2 /* Pods-ZJSocketLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJSocketLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B39A948684A3AC92B2CCB8F7760C464 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA10C8F40E6FFB0774CB162830F85BA /* Pods-ZJSocketLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSocketLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0EEB88B465E05CB5FFCE438B4EE1F684 /* Pods-ZJSocketLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJSocketLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13358525E4FD8072B7CB77BB2AFBD25E /* Pods_ZJSocketLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJSocketLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		169F44939BAE7BEB1B57B3342C5A10AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2767DC28CFA344CDD8A3DE01D189158A /* Pods-ZJSocketLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSocketLib_Example-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		437CC6D88E9063DA98532C1DF2B61272 /* Pods-ZJSocketLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJSocketLib_Example-dummy.m"; sourceTree = "<group>"; };
+		43E255014C480EFCA2019C6FE786FF7A /* Pods-ZJSocketLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSocketLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5FE4BE8B5D331B6657E5D074037A3E22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717D2C7048C1DA733A21420BEB63A9A4 /* Pods-ZJSocketLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJSocketLib_Example.modulemap"; sourceTree = "<group>"; };
+		7DC8DE2E2CAFB2C21CC4EAB856AEFD62 /* Pods-ZJSocketLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJSocketLib_Tests.modulemap"; sourceTree = "<group>"; };
+		82766473BD66069A697A06086059A493 /* ZJSocketLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJSocketLib.xcconfig; sourceTree = "<group>"; };
+		85A75CC3482A6F09885C9D93DFD62D4F /* ZJSocketLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZJSocketLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		917DE264C5C75DF89172D291D99C663F /* Pods-ZJSocketLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSocketLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		984B249CF777A29865D749A43BD9FFEF /* Pods-ZJSocketLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJSocketLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		9B423983EDE6DC9FEFBD8E13669752A7 /* Pods-ZJSocketLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSocketLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9DC88D1589F80B7CDAF9ABE7CB93AEA1 /* Pods-ZJSocketLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJSocketLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		AFE34C09874EFA45BA4A5876F865E4F8 /* Pods-ZJSocketLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJSocketLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B8668F91F777E78B92C558469241F6B8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3DB6DE41446FA7AD0B485E06401515C /* ZJSocketLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJSocketLib-dummy.m"; sourceTree = "<group>"; };
+		C9341CB0B53F0A74698B93710272667F /* ZJSocketLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJSocketLib-prefix.pch"; sourceTree = "<group>"; };
+		CBA06B8156D908D846723371BAD6FEAC /* ZJSocketLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZJSocketLib.modulemap; sourceTree = "<group>"; };
+		CBB6CDB5A94492BCC2F89508B7934D22 /* Pods-ZJSocketLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSocketLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CBD3252AAABFB44BECFCE7DB4C39AB15 /* ZJSocketLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJSocketLib-umbrella.h"; sourceTree = "<group>"; };
+		CEB1E860CD20C5685DB0319A7057B267 /* ZJSocketLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJSocketLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E820027312A7DCA23ECF1D335B20CB /* Pods_ZJSocketLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJSocketLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC43A32477F4AE08D0472FED9D8394B /* Pods-ZJSocketLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJSocketLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F1BBB20DDF75BA6F838419CD8C0AA2EC /* Pods-ZJSocketLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJSocketLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1F6442C093B9215FC49C7188FF8D358 /* Pods-ZJSocketLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJSocketLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		FC98E8E2841871F0E75B92F49AEE2F25 /* Pods-ZJSocketLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJSocketLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1432D6DE09E624EBD431E6D7AE2F55AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CDC4CCC04BB21CD1BBAA3413C81E3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B9BB71058B878CA9E62C586953627F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6A92541E32928E8ADB6630E5383FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E6255B3A40DED664E6E3C7906E5729 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDB1747499F8C9A4A344041DBCF3F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B1BE7190E0194C0C98ACCD08A68EAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1673F36ACA3BBFFA1C0E995D66781DAE /* ZJSocketLib */ = {
+			isa = PBXGroup;
+			children = (
+				C7E99EB9CB066130D78D02D07E36E029 /* Pod */,
+				3A8688F0CCE6320AE9FB73B6AE30A657 /* Support Files */,
+			);
+			name = ZJSocketLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		22BADD84327856D00938637413313989 /* Pods-ZJSocketLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B39A948684A3AC92B2CCB8F7760C464 /* Info.plist */,
+				7DC8DE2E2CAFB2C21CC4EAB856AEFD62 /* Pods-ZJSocketLib_Tests.modulemap */,
+				F1BBB20DDF75BA6F838419CD8C0AA2EC /* Pods-ZJSocketLib_Tests-acknowledgements.markdown */,
+				0EEB88B465E05CB5FFCE438B4EE1F684 /* Pods-ZJSocketLib_Tests-acknowledgements.plist */,
+				9DC88D1589F80B7CDAF9ABE7CB93AEA1 /* Pods-ZJSocketLib_Tests-dummy.m */,
+				CBB6CDB5A94492BCC2F89508B7934D22 /* Pods-ZJSocketLib_Tests-frameworks.sh */,
+				F1F6442C093B9215FC49C7188FF8D358 /* Pods-ZJSocketLib_Tests-resources.sh */,
+				ECC43A32477F4AE08D0472FED9D8394B /* Pods-ZJSocketLib_Tests-umbrella.h */,
+				0DA10C8F40E6FFB0774CB162830F85BA /* Pods-ZJSocketLib_Tests.debug.xcconfig */,
+				9B423983EDE6DC9FEFBD8E13669752A7 /* Pods-ZJSocketLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZJSocketLib_Tests";
+			path = "Target Support Files/Pods-ZJSocketLib_Tests";
+			sourceTree = "<group>";
+		};
+		3A8688F0CCE6320AE9FB73B6AE30A657 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4BE8B5D331B6657E5D074037A3E22 /* Info.plist */,
+				CBA06B8156D908D846723371BAD6FEAC /* ZJSocketLib.modulemap */,
+				82766473BD66069A697A06086059A493 /* ZJSocketLib.xcconfig */,
+				C3DB6DE41446FA7AD0B485E06401515C /* ZJSocketLib-dummy.m */,
+				C9341CB0B53F0A74698B93710272667F /* ZJSocketLib-prefix.pch */,
+				CBD3252AAABFB44BECFCE7DB4C39AB15 /* ZJSocketLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJSocketLib";
+			sourceTree = "<group>";
+		};
+		50383347CC8861F380DA048C847191BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E7219F69F89558DA6EB7C449A704DDE /* Pods-ZJSocketLib_Example */,
+				22BADD84327856D00938637413313989 /* Pods-ZJSocketLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		61F03A0C5D72D6763369DFEFC6A3A4F7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1673F36ACA3BBFFA1C0E995D66781DAE /* ZJSocketLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7733B9D7C34075747B20ADB80FB40684 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8668F91F777E78B92C558469241F6B8 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				61F03A0C5D72D6763369DFEFC6A3A4F7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FF224C0C4AE2AF8E11281E8C44699FCF /* Products */,
+				50383347CC8861F380DA048C847191BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7219F69F89558DA6EB7C449A704DDE /* Pods-ZJSocketLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				169F44939BAE7BEB1B57B3342C5A10AF /* Info.plist */,
+				717D2C7048C1DA733A21420BEB63A9A4 /* Pods-ZJSocketLib_Example.modulemap */,
+				051FAF0EC1F561DD6582FB7C157616D2 /* Pods-ZJSocketLib_Example-acknowledgements.markdown */,
+				FC98E8E2841871F0E75B92F49AEE2F25 /* Pods-ZJSocketLib_Example-acknowledgements.plist */,
+				437CC6D88E9063DA98532C1DF2B61272 /* Pods-ZJSocketLib_Example-dummy.m */,
+				917DE264C5C75DF89172D291D99C663F /* Pods-ZJSocketLib_Example-frameworks.sh */,
+				2767DC28CFA344CDD8A3DE01D189158A /* Pods-ZJSocketLib_Example-resources.sh */,
+				984B249CF777A29865D749A43BD9FFEF /* Pods-ZJSocketLib_Example-umbrella.h */,
+				AFE34C09874EFA45BA4A5876F865E4F8 /* Pods-ZJSocketLib_Example.debug.xcconfig */,
+				43E255014C480EFCA2019C6FE786FF7A /* Pods-ZJSocketLib_Example.release.xcconfig */,
+			);
+			name = "Pods-ZJSocketLib_Example";
+			path = "Target Support Files/Pods-ZJSocketLib_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7E99EB9CB066130D78D02D07E36E029 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7733B9D7C34075747B20ADB80FB40684 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FF224C0C4AE2AF8E11281E8C44699FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13358525E4FD8072B7CB77BB2AFBD25E /* Pods_ZJSocketLib_Example.framework */,
+				E1E820027312A7DCA23ECF1D335B20CB /* Pods_ZJSocketLib_Tests.framework */,
+				CEB1E860CD20C5685DB0319A7057B267 /* ZJSocketLib.bundle */,
+				85A75CC3482A6F09885C9D93DFD62D4F /* ZJSocketLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E3A1322CF62763F89C6A8C06A4DA231 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBB0BCD9AE1A8811A57BCEBECB526E0 /* Pods-ZJSocketLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1C0CC929EE842101DC23490052837E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6FD3B312AFEC353D22D534CFD76F10 /* Pods-ZJSocketLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56E9FAFD1DB8CC991A481F9D172FFBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5C97653F7A5AC202FC99D8F034736D /* ZJSocketLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15F74C20C37EB66F1EE6B78514CDCCB5 /* Pods-ZJSocketLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D507401249D6572D606D4C88878BC3 /* Build configuration list for PBXNativeTarget "Pods-ZJSocketLib_Tests" */;
+			buildPhases = (
+				0FDC7424F6938611F8468D4346B10B7F /* Sources */,
+				4DDB1747499F8C9A4A344041DBCF3F25 /* Frameworks */,
+				4E3A1322CF62763F89C6A8C06A4DA231 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F58DBC6C972F3DE730783AE272D70F7D /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJSocketLib_Tests";
+			productName = "Pods-ZJSocketLib_Tests";
+			productReference = E1E820027312A7DCA23ECF1D335B20CB /* Pods_ZJSocketLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38D9226C97BB589A1BB767BFCB1FC645 /* ZJSocketLib-ZJSocketLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2728F36CAAE8E2748DFD9657FE6F94 /* Build configuration list for PBXNativeTarget "ZJSocketLib-ZJSocketLib" */;
+			buildPhases = (
+				36F413853CC13D68001B75330FF7347B /* Sources */,
+				38B9BB71058B878CA9E62C586953627F /* Frameworks */,
+				88555BF2BBBB39D5682D131F8CC555CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZJSocketLib-ZJSocketLib";
+			productName = "ZJSocketLib-ZJSocketLib";
+			productReference = CEB1E860CD20C5685DB0319A7057B267 /* ZJSocketLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		66B2A911BFE4C39A1F1D03883BE9073F /* Pods-ZJSocketLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D590374419A50014888D42582A82213 /* Build configuration list for PBXNativeTarget "Pods-ZJSocketLib_Example" */;
+			buildPhases = (
+				C4CC7508AE15CB3F011AD5749DD77133 /* Sources */,
+				3E6A92541E32928E8ADB6630E5383FE2 /* Frameworks */,
+				7A1C0CC929EE842101DC23490052837E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47AC0335AFDF9EADC1455CEBA65B696 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJSocketLib_Example";
+			productName = "Pods-ZJSocketLib_Example";
+			productReference = 13358525E4FD8072B7CB77BB2AFBD25E /* Pods_ZJSocketLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71996BA63860756F7E11FC80A4C7F27D /* ZJSocketLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C88C1F54403D290C9FD1D0CD83865D /* Build configuration list for PBXNativeTarget "ZJSocketLib" */;
+			buildPhases = (
+				A2216538E04CD55D8BE087E0DF6C18E3 /* Sources */,
+				1432D6DE09E624EBD431E6D7AE2F55AF /* Frameworks */,
+				B3F3358CBAC47E3A1ADBF2735C4A78C5 /* Resources */,
+				B56E9FAFD1DB8CC991A481F9D172FFBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDE4728545A0A5E9025E5F0A43378DF /* PBXTargetDependency */,
+			);
+			name = ZJSocketLib;
+			productName = ZJSocketLib;
+			productReference = 85A75CC3482A6F09885C9D93DFD62D4F /* ZJSocketLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FF224C0C4AE2AF8E11281E8C44699FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66B2A911BFE4C39A1F1D03883BE9073F /* Pods-ZJSocketLib_Example */,
+				15F74C20C37EB66F1EE6B78514CDCCB5 /* Pods-ZJSocketLib_Tests */,
+				71996BA63860756F7E11FC80A4C7F27D /* ZJSocketLib */,
+				38D9226C97BB589A1BB767BFCB1FC645 /* ZJSocketLib-ZJSocketLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88555BF2BBBB39D5682D131F8CC555CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F3358CBAC47E3A1ADBF2735C4A78C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80999BCCB88B71620D63785ABBFFF0EA /* ZJSocketLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FDC7424F6938611F8468D4346B10B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D63CFCCB67C151DBEFF52925190815 /* Pods-ZJSocketLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F413853CC13D68001B75330FF7347B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2216538E04CD55D8BE087E0DF6C18E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D7670E7091396A3E43B28E337A48AE /* ReplaceMe.m in Sources */,
+				A664537A4C69DB9DEDEADFEED7474583 /* ZJSocketLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CC7508AE15CB3F011AD5749DD77133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475665A5C9CBA1F4D1128A10B41F2FA6 /* Pods-ZJSocketLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47AC0335AFDF9EADC1455CEBA65B696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJSocketLib;
+			target = 71996BA63860756F7E11FC80A4C7F27D /* ZJSocketLib */;
+			targetProxy = 1752C44811BC6279DFE9CFB73286908C /* PBXContainerItemProxy */;
+		};
+		DDDE4728545A0A5E9025E5F0A43378DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZJSocketLib-ZJSocketLib";
+			target = 38D9226C97BB589A1BB767BFCB1FC645 /* ZJSocketLib-ZJSocketLib */;
+			targetProxy = 99FBBEE3526D136FE21B80DC51FA157B /* PBXContainerItemProxy */;
+		};
+		F58DBC6C972F3DE730783AE272D70F7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJSocketLib;
+			target = 71996BA63860756F7E11FC80A4C7F27D /* ZJSocketLib */;
+			targetProxy = 3CFE9EEBC09146B9CD2BF22A8C0B2F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08AAD6D4F12DF96AC64599F17AC1489C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E255014C480EFCA2019C6FE786FF7A /* Pods-ZJSocketLib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJSocketLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJSocketLib_Example/Pods-ZJSocketLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZJSocketLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20390CEF1049AC4CE1E64164457547FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B423983EDE6DC9FEFBD8E13669752A7 /* Pods-ZJSocketLib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJSocketLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJSocketLib_Tests/Pods-ZJSocketLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZJSocketLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A8504CB3F7FDF8BABE2FD302C47CF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA10C8F40E6FFB0774CB162830F85BA /* Pods-ZJSocketLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJSocketLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJSocketLib_Tests/Pods-ZJSocketLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZJSocketLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		382A09578DEC044EF1042E9A7118BE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82766473BD66069A697A06086059A493 /* ZJSocketLib.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZJSocketLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		57CDB214EF02DD0270A670BEF0BE66A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82766473BD66069A697A06086059A493 /* ZJSocketLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJSocketLib/ZJSocketLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJSocketLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJSocketLib/ZJSocketLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZJSocketLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB4789772759BAEF18B82242724087ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82766473BD66069A697A06086059A493 /* ZJSocketLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJSocketLib/ZJSocketLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJSocketLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJSocketLib/ZJSocketLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZJSocketLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E528DF95423782BB9350DFE5F4E057B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE34C09874EFA45BA4A5876F865E4F8 /* Pods-ZJSocketLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJSocketLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJSocketLib_Example/Pods-ZJSocketLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZJSocketLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5DF4264E572362A5B9AB5740D3A2A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82766473BD66069A697A06086059A493 /* ZJSocketLib.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZJSocketLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D590374419A50014888D42582A82213 /* Build configuration list for PBXNativeTarget "Pods-ZJSocketLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E528DF95423782BB9350DFE5F4E057B6 /* Debug */,
+				08AAD6D4F12DF96AC64599F17AC1489C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C88C1F54403D290C9FD1D0CD83865D /* Build configuration list for PBXNativeTarget "ZJSocketLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4789772759BAEF18B82242724087ED /* Debug */,
+				57CDB214EF02DD0270A670BEF0BE66A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D507401249D6572D606D4C88878BC3 /* Build configuration list for PBXNativeTarget "Pods-ZJSocketLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8504CB3F7FDF8BABE2FD302C47CF57 /* Debug */,
+				20390CEF1049AC4CE1E64164457547FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2728F36CAAE8E2748DFD9657FE6F94 /* Build configuration list for PBXNativeTarget "ZJSocketLib-ZJSocketLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382A09578DEC044EF1042E9A7118BE64 /* Debug */,
+				F5DF4264E572362A5B9AB5740D3A2A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

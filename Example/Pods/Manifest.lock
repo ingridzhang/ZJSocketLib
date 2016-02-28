@@ -1,0 +1,14 @@
+PODS:
+  - ZJSocketLib (0.1.0)
+
+DEPENDENCIES:
+  - ZJSocketLib (from `../`)
+
+EXTERNAL SOURCES:
+  ZJSocketLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJSocketLib: 81f4fa88e34f3c92b1307a389cf3641289e9daec
+
+COCOAPODS: 0.39.0
