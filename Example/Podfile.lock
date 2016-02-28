@@ -1,5 +1,13 @@
 PODS:
-  - ZJSocketLib (0.1.0)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - ZJSocketLib (0.1.0):
+    - CocoaAsyncSocket (~> 7.4.2)
 
 DEPENDENCIES:
   - ZJSocketLib (from `../`)
@@ -9,6 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZJSocketLib: 81f4fa88e34f3c92b1307a389cf3641289e9daec
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  ZJSocketLib: 37d75f0ed742dc59486a8f3b08355e3fe231492f
 
 COCOAPODS: 0.39.0

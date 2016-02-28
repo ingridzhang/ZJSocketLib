@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-ZJSocketLib_Tests/CocoaAsyncSocket.framework"
   install_framework "Pods-ZJSocketLib_Tests/ZJSocketLib.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-ZJSocketLib_Tests/CocoaAsyncSocket.framework"
   install_framework "Pods-ZJSocketLib_Tests/ZJSocketLib.framework"
 fi

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '941E941D0875F73CB74C0F2D'
+               BlueprintIdentifier = 'F0EEB301406A494E617E947C'
                BlueprintName = 'ZJSocketLib'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ZJSocketLib.framework'>

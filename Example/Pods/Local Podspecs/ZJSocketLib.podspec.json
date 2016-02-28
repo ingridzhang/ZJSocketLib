@@ -2,14 +2,14 @@
   "name": "ZJSocketLib",
   "version": "0.1.0",
   "summary": "A short description of ZJSocketLib.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ZJSocketLib",
+  "description": "a pod for socket connection",
+  "homepage": "https://github.com/ingridzhang/ZJSocketLib",
   "license": "MIT",
   "authors": {
-    "zhangjing": "542727052@qq.com"
+    "ingridzhang": "542727052@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ZJSocketLib.git",
+    "git": "https://github.com/ingridzhang/ZJSocketLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,11 @@
   "resource_bundles": {
     "ZJSocketLib": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "CocoaAsyncSocket": [
+      "~> 7.4.2"
     ]
   }
 }
